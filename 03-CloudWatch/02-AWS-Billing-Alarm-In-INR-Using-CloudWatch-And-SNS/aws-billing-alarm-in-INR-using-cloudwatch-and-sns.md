@@ -196,5 +196,6 @@ If you want more control over billing visibility or time windows:
 - Confirm your **SNS subscription email** to receive alerts.
 - Regularly review your **Billing Preferences** and budgets.
 - Use **Cost Explorer** to get visual trends of usage and forecast.
-
+> - AWS Billing Alarms reset every month. At the start of each month, the `EstimatedCharges` metric may show **"Insufficient data"** until new charges begin accumulating for the current month.
+> - To view detailed billing for the **previous month**, sign in with the **root user** and go to the **Billing Dashboard** from the AWS Console.
 ---
