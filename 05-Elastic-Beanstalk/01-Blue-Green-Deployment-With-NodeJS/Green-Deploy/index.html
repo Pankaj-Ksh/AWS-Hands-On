@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elastic Beanstalk - Green Deployment</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+      display: flex;
+      height: 100vh;
+      background: linear-gradient(135deg, #FF6B6B, #FFD93D);
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+    }
+
+    .left, .right {
+      width: 50%;
+      padding: 3em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .left {
+      background: linear-gradient(135deg, #11998e, #38ef7d);
+      color: #ffffff;
+    }
+
+    .left h1 {
+      font-size: 3.5em;
+      margin-bottom: 0.5em;
+      text-shadow: 2px 2px #00000044;
+    }
+
+    .left p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+      text-shadow: 1px 1px #00000044;
+      margin-bottom: 1em;
+    }
+
+    .right {
+      background-color: #2F2E41;
+      color: #ffffff;
+    }
+
+    .right h2 {
+      font-size: 2em;
+      margin-bottom: 1em;
+      color: #00D8FF;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin: 1em 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #00FFAA;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #FFD700;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        width: 100%;
+        padding: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>🟢 Green Deployment</h1>
+      <p>This is the <strong>Green environment</strong> of your AWS Elastic Beanstalk Node.js app.</p>
+      <p>Deployed and managed by <strong>Pankaj</strong> as part of a hands-on AWS project with Blue-Green deployment strategy.</p>
+    </div>
+    <div class="right">
+      <h2>🔗 My GitHub Project Links</h2>
+      <ul>
+        <li><a href="https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/01-IAM/03-IAM-Custom-Policy/iam-custom-policy.md">🔐 IAM Custom Policy Setup</a></li>
+        <li><a href="https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/01-IAM/04-Switch-Role/switch-role.md">🔄 IAM Switch Role Configuration</a></li>
+        <li><a href="https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/02-EC2/10-Cross-Region-EBS-Volume-Replication/cross-region-ebs-volume-replication.md">🌍 Cross-Region EBS Volume Replication</a></li>
+        <li><a href="https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/02-EC2/13-Auto-Scaling-Group-With-Application-Modification/auto-scaling-group-with-application-modification.md">📈 Auto Scaling Group with App Deployment</a></li>
+        <li><a href="https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/03-CloudWatch/02-AWS-Billing-Alarm-In-INR-Using-CloudWatch-And-SNS/aws-billing-alarm-in-INR-using-cloudwatch-and-sns.md">🌐 AWS Billing Alarm in INR (₹) using CloudWatch and SNS</a></li>
+        <li><a href="https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/03-CloudWatch/04-AWS-CloudWatch-Canary-Application-Monitoring/aws-cloudwatch-canary-application-monitoring.md">🧭 AWS CloudWatch Canary Project: Monitor, Capture, and Store Website Health Logs</a></li>
+        <li><a href="https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/04-Amazon-EventBridge/02-EC2-Auto-Start-Stop-Schedular/ec2-auto-start-stop-schedular.md">🚀 EC2 Auto Start/Stop System with Notifications — Real-Time Cloud Automation (AWS)</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
