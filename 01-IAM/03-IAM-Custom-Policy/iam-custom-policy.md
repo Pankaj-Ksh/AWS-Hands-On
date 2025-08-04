@@ -27,7 +27,7 @@ This project demonstrates how to create a custom IAM policy in AWS that allows a
 
 📸 **Screenshot 1: Create Policy for Custom**  
 _Visual Editor showing selected actions for IAM services_
-<img width="1920" height="952" alt="Screenshot (493)" src="https://github.com/user-attachments/assets/16ce753a-2dc9-46cc-9b00-3b57df01b1c2" />
+<img src="https://github.com/user-attachments/assets/e9824dbc-254e-4692-a389-e726a38a7b52" alt="Screenshot (494)" width="90%" />
 
 ---
 
@@ -40,7 +40,7 @@ _Visual Editor showing selected actions for IAM services_
 
 📸 **Screenshot 2: TestUser Created**  
 _TestUser details page after creation_
-<img width="1920" height="914" alt="Screenshot (494)" src="https://github.com/user-attachments/assets/e9824dbc-254e-4692-a389-e726a38a7b52" />
+<img src="https://github.com/user-attachments/assets/e9824dbc-254e-4692-a389-e726a38a7b52" alt="Screenshot (494)" width="90%" />
 
 ---
 
@@ -52,7 +52,7 @@ _TestUser details page after creation_
 
 📸 **Screenshot 3: Attach Policies**  
 _Custom policy attached to TestUser_
-<img width="1920" height="946" alt="Screenshot (495)" src="https://github.com/user-attachments/assets/8f4a0463-fd76-4b51-9f88-e3191cefd44e" />
+<img src="https://github.com/user-attachments/assets/8f4a0463-fd76-4b51-9f88-e3191cefd44e" alt="Screenshot (495)" width="90%" />
 
 ---
 
@@ -63,7 +63,7 @@ _Custom policy attached to TestUser_
 
 📸 **Screenshot 4: TestUser Dashboard**  
 _Access to IAM but limited options_
-<img width="1920" height="988" alt="Screenshot (496)" src="https://github.com/user-attachments/assets/a91da9c7-3f73-4339-87f6-790314b95df2" />
+<img src="https://github.com/user-attachments/assets/a91da9c7-3f73-4339-87f6-790314b95df2" alt="Screenshot (496)" width="90%" />
 
 ---
 
@@ -74,7 +74,7 @@ _Access to IAM but limited options_
 
 📸 **Screenshot 5: TestUser Can’t Attach Policy**  
 _Access denied while attaching policy during user creation_
-<img width="1920" height="923" alt="Screenshot (497)" src="https://github.com/user-attachments/assets/a4f89a10-79a7-4009-abe9-df612991f9e2" />
+<img src="https://github.com/user-attachments/assets/a4f89a10-79a7-4009-abe9-df612991f9e2" alt="Screenshot (497)" width="90%" />
 
 ---
 
@@ -85,11 +85,11 @@ _Access denied while attaching policy during user creation_
 
 📸 **Screenshot 6: New User Created – test1**  
 _User created by TestUser_
-<img width="1920" height="977" alt="Screenshot (498)" src="https://github.com/user-attachments/assets/55a41c5b-bddf-4fd6-80b0-ca28d422325b" />
+<img src="https://github.com/user-attachments/assets/55a41c5b-bddf-4fd6-80b0-ca28d422325b" alt="Screenshot (498)" width="90%" />
 
 📸 **Screenshot 7: Created Role**  
 _Role created with allowed permissions_
-<img width="1920" height="982" alt="Screenshot (499)" src="https://github.com/user-attachments/assets/60878f74-9055-43e0-9e21-d91a894c8745" />
+<img src="https://github.com/user-attachments/assets/60878f74-9055-43e0-9e21-d91a894c8745" alt="Screenshot (499)" width="90%" />
 
 ---
 
