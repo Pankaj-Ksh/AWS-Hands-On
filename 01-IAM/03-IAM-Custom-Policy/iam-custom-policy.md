@@ -27,7 +27,7 @@ This project demonstrates how to create a custom IAM policy in AWS that allows a
 
 📸 **Screenshot 1: Create Policy for Custom**  
 _Visual Editor showing selected actions for IAM services_
-<img src="https://github.com/user-attachments/assets/e9824dbc-254e-4692-a389-e726a38a7b52" alt="Screenshot (494)" width="90%" />
+<img src="https://github.com/user-attachments/assets/e7bf45e5-3dfe-4609-8d65-e5570117e475" alt="Screenshot (499)" width="90%" />
 
 ---
 
@@ -100,7 +100,8 @@ _Role created with allowed permissions_
 
 📸 **Screenshot 8: S3 Dashboard – Access Denied**  
 _Error message when accessing S3 dashboard_
-<img width="1920" height="898" alt="Screenshot (500)" src="https://github.com/user-attachments/assets/7bb16aae-3cce-40c1-b61a-2b58380ffb3c" />
+
+<img src="https://github.com/user-attachments/assets/7bb16aae-3cce-40c1-b61a-2b58380ffb3c" alt="Screenshot (499)" width="90%" />
 
 ---
 
