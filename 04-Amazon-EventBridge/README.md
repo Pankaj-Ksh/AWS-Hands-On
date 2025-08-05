@@ -23,8 +23,6 @@ Amazon EventBridge is a **serverless event bus service** that connects applicati
 
 ## 📂 Project Index – Hands-On Lab
 
----
-
 ### 1️⃣ [EC2 Launch Notification using EventBridge and SNS – Full Walkthrough](https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/04-Amazon-EventBridge/01-EC2-Launch-Notification-Using-EventBridge-And-SNS/ec2-launch-notification-using-eventBridge-and-sns.md)
 
 📌 **Project Highlights:**
