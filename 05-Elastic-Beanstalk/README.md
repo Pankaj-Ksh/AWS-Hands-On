@@ -29,7 +29,7 @@ Elastic Beanstalk is an orchestration service by AWS that handles deployment, ca
 
 ## 📂 Project Index – Hands-On Lab
 
-### ✅ [`01-Blue-Green-Deployment-With-NodeJS`](./01-Blue-Green-Deployment-With-NodeJS)
+### ✅ [Blue-Green Deployment with Node.js – Full Walkthrough](./01-Blue-Green-Deployment-With-NodeJS/01-blue-green-deployment-with-nodejs.md)
 
 This real-world demo was implemented using the **AWS Management Console**, and covers:
 
