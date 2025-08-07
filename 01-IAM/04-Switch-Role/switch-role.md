@@ -1,6 +1,6 @@
-# 🚀 AWS IAM Mini Project: Switch Role with S3 Full Access
+# 🚀 AWS IAM Project: Switch Role with S3 Full Access
 
-This mini project demonstrates how to **use the "Switch Role" concept in AWS IAM** to allow a user from another AWS account (Shravni’s) to assume a role in **my AWS account** with specific permissions (in this case, **S3 Full Access**).
+This project demonstrates how to **use the "Switch Role" concept in AWS IAM** to allow a user from another AWS account (Shravni’s) to assume a role in **my AWS account** with specific permissions (in this case, **S3 Full Access**).
 
 ---
 
