@@ -71,4 +71,14 @@ Each hands-on project below contains **full setup, execution, and validation ste
 - 🌏 Copied AMI to another AWS region and confirmed both AMI & snapshots appeared there.  
 - 🔒 Noted that same-region AMI copies are auto-encrypted.  
 - 👥 Shared AMI with another AWS account via permissions.  
-- 📤 Shared snapshots separately so the other account could use the AMI.  
+- 📤 Shared snapshots separately so the other account could use the AMI.
+
+---
+
+### 7️⃣ [🗑️ EC2: Recycle Bin for AMI & Snapshot – Full Walkthrough](https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/02-EC2/07-Recycle-Bin-For-AMI-%26-Snapshot/recycle-bin-for-ami-%26-snapshot.md)
+- 📝 Tagged **AMI** and **Snapshot** with `RecycleBin = yes`.  
+- 🗑️ Created **Recycle Bin retention rules** (for AMI & Snapshot) with **1-day retention** based on tags.  
+- ❌ Deregistered **AMI** & deleted **Snapshot** → Both appeared in **Recycle Bin** with recovery option.  
+- ⚙️ Verified **rule management options** (edit/delete rule, retention details).  
+- 🧹 Cleaned up by **deleting rules** & permanently removing **AMI/Snapshot**.  
+
