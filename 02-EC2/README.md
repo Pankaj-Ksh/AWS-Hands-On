@@ -94,7 +94,7 @@ Each hands-on project below contains **full setup, execution, and validation ste
 
 ---
 
-### ​​​ [🧩 EC2: Extend Root Volume & Attach/Detach Additional EBS Volume (Linux) – Full Walkthrough](https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/02-EC2/09-Root-%26-Additional-Vol-For-Linux/root-%26-additional-vol-for-linux.md)
+### ​​​9️⃣ [🧩 EC2: Extend Root Volume & Attach/Detach Additional EBS Volume (Linux) – Full Walkthrough](https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/02-EC2/09-Root-%26-Additional-Vol-For-Linux/root-%26-additional-vol-for-linux.md)
 - 🛠️ Extended the **root volume** of a running EC2 instance to increase storage.  
 - ➕ Attached a **new EBS volume** to the instance (same Availability Zone).  
 - 📂 Formatted and mounted the additional volume in **Linux environment**.  
