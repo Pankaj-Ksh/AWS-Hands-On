@@ -91,3 +91,12 @@ Each hands-on project below contains **full setup, execution, and validation ste
 - 🖼️ Created a **new AMI** from a snapshot containing an **OS volume**.  
 - 📦 Verified snapshot storage tier changed to **Archive**.  
 - 🧹 Confirmed only **bootable snapshots** can be used to create AMIs.  
+
+---
+
+### ​​​ [🧩 EC2: Extend Root Volume & Attach/Detach Additional EBS Volume (Linux) – Full Walkthrough](https://github.com/Pankaj-Ksh/AWS-Hands-On/blob/main/02-EC2/09-Root-%26-Additional-Vol-For-Linux/root-%26-additional-vol-for-linux.md)
+- 🛠️ Extended the **root volume** of a running EC2 instance to increase storage.  
+- ➕ Attached a **new EBS volume** to the instance (same Availability Zone).  
+- 📂 Formatted and mounted the additional volume in **Linux environment**.  
+- 🔄 Unmounted and detached the volume safely when no longer needed.  
+- 🧪 Verified updated **disk size** and successful **volume attachment/detachment**.  
