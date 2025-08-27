@@ -158,3 +158,13 @@
 - Open necessary **ports for SMB/NFS** before activation.  
 - Use **CloudWatch metrics** to monitor gateway health.  
 - Always **delete unused resources** after testing.  
+
+---
+
+## 📖 References & Official Documentation
+
+- [AWS Storage Gateway (Overview)](https://docs.aws.amazon.com/storagegateway/)  
+- [What is Amazon S3 File Gateway?](https://docs.aws.amazon.com/filegateway/latest/files3/what-is-file-s3.html)  
+- [Create and Activate a File Gateway](https://docs.aws.amazon.com/filegateway/latest/files3/create-gateway-file.html)  
+- [Create a File Share](https://docs.aws.amazon.com/filegateway/latest/files3/GettingStartedCreateFileShare.html)  
+- [Access the File Share](https://docs.aws.amazon.com/filegateway/latest/files3/GettingStartedAccessFileShare.html)  
