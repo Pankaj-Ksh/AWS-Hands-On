@@ -17,9 +17,9 @@ The architecture consists of:
 - 🗄 **Amazon S3 Bucket** for file storage.  
 - 🔄 **AWS Transfer Family Server** (SFTP protocol) to enable secure file transfer.  
 - 🛡 **IAM Role & Policy** to control access to the S3 bucket.  
-- 🖥 **FileZilla Client** to connect to the Transfer Family server and upload/download files.  
-
-**Flow:** 🖥 Local machine (FileZilla) ⬄ 🔄 AWS Transfer Family ⬄ 🗄 S3 Bucket  
+- 🖥 **FileZilla Client** to connect to the Transfer Family server and upload/download files.
+  
+<img width="7866" height="2733" alt="image" src="https://github.com/user-attachments/assets/95c608b6-a701-42e9-af48-57ffbcd4f8c3" />
 
 ---
 
