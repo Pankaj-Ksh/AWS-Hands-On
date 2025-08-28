@@ -104,3 +104,8 @@ A step-by-step hands-on guide to **set up AWS Transfer Family** integrated with 
 - 🛡 Limit S3 bucket access using IP restrictions.  
 - 📊 Test with a few small files first before large transfers.  
 - 🧹 Clean up resources after testing to avoid unnecessary AWS charges.
+
+---
+
+## 🚀 AWS S3 & Transfer Family Secure File Transfer Architecture
+<img width="7866" height="2733" alt="image" src="https://github.com/user-attachments/assets/95c608b6-a701-42e9-af48-57ffbcd4f8c3" />
