@@ -14,6 +14,11 @@ A hands-on approach to automate, schedule, and monitor data transfers efficientl
 
 ---
 
+## 🏗 Architecture Overview
+<img width="2310" height="703" alt="diagram-export-8-28-2025-7_44_21-PM" src="https://github.com/user-attachments/assets/0eabc136-8764-40c8-88b2-c3db6d630b40" />
+
+---
+
 ## 🔄 Workflow Summary
 1. Create S3 bucket & upload files.  
 2. Set up Amazon EFS filesystem & configure network/mount targets.  
