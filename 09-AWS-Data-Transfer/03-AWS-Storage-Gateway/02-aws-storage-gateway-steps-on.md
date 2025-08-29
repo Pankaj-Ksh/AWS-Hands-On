@@ -118,4 +118,4 @@ ls
 
 ## 🏗 Architecture Overview
 
-  <img width="1429" height="915" alt="Screenshot (1377)" src="https://github.com/user-attachments/assets/ffaf62f7-b92a-47fa-8a0d-a6c2315853b2" />
+  <img width="1429" height="910" alt="Screenshot (1435)" src="https://github.com/user-attachments/assets/85e0f066-023d-4b30-8028-957d57e5646f" />
