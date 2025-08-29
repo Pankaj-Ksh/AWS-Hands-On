@@ -13,6 +13,11 @@ This hands-on project demonstrates how to set up a billing alarm in **Amazon Clo
 
 ---
 
+## 🏗 Architecture
+   <img width="6507" height="2214" alt="image" src="https://github.com/user-attachments/assets/018d8a1b-6cd4-4d6c-bf0a-9f7ab85da371" />
+
+---
+
 ## 🔧 Steps Performed
 
 ### 📍 Step 1: Identify Region Limitation
