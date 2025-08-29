@@ -19,13 +19,15 @@
 **High-Level Design:**  
 - **AWS Storage Gateway (File Gateway)** deployed on an **EC2 instance**.  
 - **Amazon S3 bucket** acts as backend storage.  
-- **NFS/SMB file share** created to connect S3 to on-prem-like clients.  
+- **NFS file share** created to connect S3 to on-prem-like clients.  
 - **Linux client (EC2)** to mount file share and write files.  
 
 **Key AWS Services Used:**  
 - **EC2** (compute)  
 - **Storage Gateway** (hybrid cloud storage)  
 - **Amazon S3** (object storage)    
+
+  <img width="1429" height="915" alt="Screenshot (1377)" src="https://github.com/user-attachments/assets/ffaf62f7-b92a-47fa-8a0d-a6c2315853b2" />
 
 ---
 
