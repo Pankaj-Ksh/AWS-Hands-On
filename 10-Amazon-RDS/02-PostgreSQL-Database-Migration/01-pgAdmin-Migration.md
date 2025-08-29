@@ -16,7 +16,9 @@ It covers database backup, restoration, and security configurations for seamless
 ## 🏗 Architecture Overview
 - Uses **AWS RDS** for source and target PostgreSQL databases.  
 - **pgAdmin 4** acts as the client tool for managing backup and restore.  
-- Security groups configured to allow PostgreSQL traffic from client IP.  
+- Security groups configured to allow PostgreSQL traffic from client IP.
+  
+  <img width="2116" height="2626" alt="image" src="https://github.com/user-attachments/assets/88edb42b-370e-4816-86cc-30bc6c76ad14" />
 
 ---
 
