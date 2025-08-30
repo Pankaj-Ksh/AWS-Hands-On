@@ -15,6 +15,8 @@ It simulates a real-world scenario of cloud database migration with minimal down
 ---
 
 ## 🏗 Architecture Overview
+   <img width="2258" height="2035" alt="image" src="https://github.com/user-attachments/assets/5c96ecd9-9971-4608-9c51-45202af38967" />
+
 
 ---
 
