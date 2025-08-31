@@ -115,8 +115,11 @@ This hands-on project demonstrates how to set up a billing alarm in **Amazon Clo
 
 14. Checked **root account July bill** — showing **$0.89** which is approx **₹73.87 INR** at current rate.
 
-📸 *Screenshot Placeholder: Billing page showing $0.89*
-<img width="1920" height="931" alt="Screenshot (732)" src="https://github.com/user-attachments/assets/508b04ac-f378-483d-b147-d20a8474aa88" />
+📸 *Screenshot Placeholder: Billing page showing for July 2025*
+<img width="1920" height="980" alt="Screenshot (1438)" src="https://github.com/user-attachments/assets/e1f1d862-a3da-4c6a-9c79-e7c9fad0ea67" />
+
+📸 *Screenshot Placeholder: Billing page showing for August 2025*
+<img width="1920" height="981" alt="Screenshot (1437)" src="https://github.com/user-attachments/assets/a8100014-3f4a-45ec-bba2-8c837523a397" />
 
 ---
 
