@@ -14,6 +14,12 @@ This mini project demonstrates how to use **AWS CloudWatch Synthetics Canary** t
 
 ---
 
+## 🏗 Architecture Overview
+  <img width="4557" height="4274" alt="image" src="https://github.com/user-attachments/assets/6f1ce7dc-2ad2-4b41-a489-02b99633b882" />
+
+
+---
+
 ## 🚀 Steps Performed
 
 This section outlines the complete process of configuring a **CloudWatch Canary** to monitor a custom website hosted on Vercel, capture screenshots, and handle S3 object visibility challenges.
