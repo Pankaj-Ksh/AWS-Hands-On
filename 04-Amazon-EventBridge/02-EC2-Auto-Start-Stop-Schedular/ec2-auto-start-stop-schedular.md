@@ -28,7 +28,9 @@ This hands-on project demonstrates how to automatically **start and stop EC2 ins
 ---
 
 ## 🏗️ Architecture Diagram
-<img width="633" height="514" alt="EC2-STOP-START drawio" src="https://github.com/user-attachments/assets/fe01303f-5e56-49b5-9c6f-19f2f07fa45f" />
+<img width="4303" height="3651" alt="image" src="https://github.com/user-attachments/assets/5b0c866d-3e98-4ff5-9219-a4592876f9c4" />
+
+
 
 ---
 
