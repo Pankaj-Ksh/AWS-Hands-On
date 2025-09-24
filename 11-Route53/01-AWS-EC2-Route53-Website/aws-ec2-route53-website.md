@@ -82,6 +82,44 @@ This allows access to the website via a user-friendly domain instead of just the
 
 ---
 
+## UserData 
+```
+#!/bin/bash
+# Update packages
+yum update -y
+
+# Install Apache
+yum install -y httpd
+
+# Start Apache service
+systemctl start httpd
+systemctl enable httpd
+
+# Create a simple HTML page
+cat <<EOL > /var/www/html/index.html
+<html>
+<head>
+    <title>Welcome to pankajksh.xyz!</title>
+</head>
+<body style="text-align:center; font-family:Arial, sans-serif;">
+    <h1>🎉 Hello from EC2!</h1>
+    <p>Your website is successfully hosted on AWS EC2 with Route 53.</p>
+</body>
+</html>
+EOL
+
+# Set proper permissions
+chown apache:apache /var/www/html/index.html
+
+# Allow HTTP traffic in case Security Group is not open (optional, also open in SG)
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+systemctl restart iptables
+
+echo "Web server setup complete!"
+
+```
+
+
 ## ⚠️ Issues Faced
 - Initial DNS propagation delay 🌐  
 - Browser cache causing site to not load 🧹  
