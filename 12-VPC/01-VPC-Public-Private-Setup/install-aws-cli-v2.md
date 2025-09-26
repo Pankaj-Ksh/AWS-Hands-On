@@ -25,5 +25,5 @@ sudo ./aws/install
 
 ## Verify 
 ```
-sudo aws --version
+sudo /usr/local/bin/aws --version
 ```
