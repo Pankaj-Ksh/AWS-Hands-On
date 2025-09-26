@@ -77,12 +77,13 @@ Editing routes in private Route Table → **0.0.0.0/0** traffic directed to **NA
 
 ### 9. S3 Bucket Listing Confirmation  
 Confirmed **bucket creation**. Listing shows **empty bucket** (no files yet).  
-![Uploading 9.png…]()
+<img width="1920" height="1080" alt="9" src="https://github.com/user-attachments/assets/e10811fa-3130-49fd-af00-8253bffbfdb0" />
 
 ---
 
 ### 10. S3 Gateway Endpoint Creation  
 VPC console → Endpoint type: **Gateway**, Service: **S3**, Region: `ap-south-1`.  
+<img width="1920" height="979" alt="10" src="https://github.com/user-attachments/assets/294dd7ad-0af4-4942-a2e4-4f34f9382309" />
 
 ---
 
