@@ -33,7 +33,6 @@ Amazon EFS (Elastic File System) is a **fully managed, scalable, and shared file
 ---
 
 ## 🛠 Steps Performed
-## 🛠 Steps Performed
 
 **Followed Steps with Screenshots:**  
 
