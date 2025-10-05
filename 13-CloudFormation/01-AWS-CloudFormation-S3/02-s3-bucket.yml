@@ -1,0 +1,73 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  CloudFormation template to create an S3 bucket with versioning,
+  and option for Public or Private access including bucket policy.
+
+Parameters:
+  BucketName:
+    Description: Name of the S3 bucket to be created (must be globally unique)
+    Type: String
+    MinLength: 3
+    MaxLength: 63
+    AllowedPattern: '^[a-z0-9.-]+$'
+    ConstraintDescription: Bucket name must be lowercase, unique, and 3–63 characters.
+
+  VersioningEnabled:
+    Description: Enable versioning for the S3 bucket
+    Type: String
+    AllowedValues:
+      - Enabled
+      - Suspended
+    Default: Suspended
+    ConstraintDescription: Must be either Enabled or Suspended.
+
+  BucketAccess:
+    Description: Select whether the bucket should be Public or Private
+    Type: String
+    AllowedValues:
+      - Public
+      - Private
+    Default: Private
+    ConstraintDescription: Must be either Public or Private.
+
+Conditions:
+  IsPrivate: !Equals [ !Ref BucketAccess, "Private" ]
+  IsPublic: !Equals [ !Ref BucketAccess, "Public" ]
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref BucketName
+      VersioningConfiguration:
+        Status: !Ref VersioningEnabled
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: !If [ IsPrivate, true, false ]
+        BlockPublicPolicy: !If [ IsPrivate, true, false ]
+        IgnorePublicAcls: !If [ IsPrivate, true, false ]
+        RestrictPublicBuckets: !If [ IsPrivate, true, false ]
+
+  PublicBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Condition: IsPublic
+    Properties:
+      Bucket: !Ref MyS3Bucket
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Sid: PublicReadGetObject
+            Effect: Allow
+            Principal: "*"
+            Action: "s3:GetObject"
+            Resource: !Sub "${MyS3Bucket.Arn}/*"
+
+Outputs:
+  S3BucketName:
+    Description: Name of the created S3 bucket
+    Value: !Ref MyS3Bucket
+    Export:
+      Name: !Sub "${AWS::StackName}-BucketName"
+
+  S3BucketArn:
+    Description: ARN of the created S3 bucket
+    Value: !GetAtt MyS3Bucket.Arn
